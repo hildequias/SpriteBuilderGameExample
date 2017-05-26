@@ -33,7 +33,10 @@
         
         rtSprite.position = CGPointMake(winSize.width/2, winSize.height/2);
         [self addChild:rtSprite];
-
+        
+        hero = [[Hero alloc]initWithFileName:@"hero.png"];
+        hero.position = CGPointMake(center.x - winSize.width/4, winSize.height/2);
+        [self addChild:hero];
     }
     
     return self;
