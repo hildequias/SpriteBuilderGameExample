@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5B121030197484FA004C1E1D /* SpriteActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B12102F197484FA004C1E1D /* SpriteActivity.m */; };
 		5B121038197487F2004C1E1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
+		794F9A8F1EDCB37E00F34D30 /* ParallaxSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 794F9A8E1EDCB37E00F34D30 /* ParallaxSprite.m */; };
+		794F9A901EDCB37E00F34D30 /* ParallaxSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 794F9A8E1EDCB37E00F34D30 /* ParallaxSprite.m */; };
 		798769751ED8A28300B6D3CD /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 798769741ED8A28300B6D3CD /* Hero.m */; };
 		798769761ED8A28300B6D3CD /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 798769741ED8A28300B6D3CD /* Hero.m */; };
 		7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
@@ -154,6 +156,8 @@
 		5B121033197485FE004C1E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Platforms/Android/Info.plist; sourceTree = "<group>"; };
 		5B121034197485FE004C1E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Platforms/iOS/Info.plist; sourceTree = "<group>"; };
 		5BA4619E1974C88900785744 /* AndroidManifest.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = AndroidManifest.xml; path = Platforms/Android/AndroidManifest.xml; sourceTree = "<group>"; };
+		794F9A8D1EDCB37E00F34D30 /* ParallaxSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParallaxSprite.h; path = Source/ParallaxSprite.h; sourceTree = "<group>"; };
+		794F9A8E1EDCB37E00F34D30 /* ParallaxSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParallaxSprite.m; path = Source/ParallaxSprite.m; sourceTree = "<group>"; };
 		798769731ED8A28300B6D3CD /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hero.h; path = Source/Hero.h; sourceTree = "<group>"; };
 		798769741ED8A28300B6D3CD /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hero.m; path = Source/Hero.m; sourceTree = "<group>"; };
 		7A4035FF19DDEE84007B6E8F /* Sprite Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprite Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -438,6 +442,8 @@
 				D352B48019EC608A00829775 /* MetalShaders */,
 				798769731ED8A28300B6D3CD /* Hero.h */,
 				798769741ED8A28300B6D3CD /* Hero.m */,
+				794F9A8D1EDCB37E00F34D30 /* ParallaxSprite.h */,
+				794F9A8E1EDCB37E00F34D30 /* ParallaxSprite.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -802,6 +808,7 @@
 				927F619E196C771E000F43EF /* MainScene.m in Sources */,
 				798769761ED8A28300B6D3CD /* Hero.m in Sources */,
 				5B121030197484FA004C1E1D /* SpriteActivity.m in Sources */,
+				794F9A901EDCB37E00F34D30 /* ParallaxSprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -809,6 +816,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794F9A8F1EDCB37E00F34D30 /* ParallaxSprite.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
